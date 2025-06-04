@@ -1,2 +1,10 @@
-# Filmes
-Repositório criado em aula no dia 03/06/2025
+README.md
+
+Qual o nome do projeto?
+
+Sobre o que é o projeto?
+
+Quais foram os principais recursos do Javascript utilizado?
+
+Qual aprendizado você leva desse projeto?
+
