@@ -26,10 +26,15 @@ let filmes = [{
     foto: "filme4.jpg",
     avaliacao: "9/10",
     duracao: "2h03m"
+},{
+    titulo: "Como Treinar o seu Dragão",
+    foto: "filme5.jpg",
+    avaliacao: "9/10",
+    duracao: "2h05m"
 }]
 
 function fnMontarCartao(filmeAtual){
-    document.querySelector(".lista-filmes").innerHTML = `
+    document.querySelector(".lista-filmes").innerHTML += `
         <div class="card-filme">
             <img src="img/${filmeAtual.foto}">
             <h3>${filmeAtual.titulo}</h3>
@@ -38,8 +43,23 @@ function fnMontarCartao(filmeAtual){
         `
 }
 
-fnMontarCartao(filmes[0])
-fnMontarCartao(filmes[1])
+function allFilms(filmes) {
+    filmes.forEach(filmeAtual => {
+        document.querySelector(".lista-filmes").innerHTML += `
+        <div class="card-filme">
+            <img src="img/${filmeAtual.foto}">
+            <h3>${filmeAtual.titulo}</h3>
+            <span>⭐ ${filmeAtual.avaliacao}<span>
+        </div>
+        `
+    })
+}
+
+// fnMontarCartao(filmes[0])
+// fnMontarCartao(filmes[1])
+
+allFilms(filmes)
+
 
 
 // const fnCartao = (filmes) => {
