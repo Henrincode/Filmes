@@ -1,0 +1,98 @@
+[
+  {
+    "titulo": "Duna: Parte Dois",
+    "avaliacao": 5,
+    "foto": "https://br.web.img3.acsta.net/pictures/23/05/26/17/47/1900372.jpg",
+    "sinopse": "Paul Atreides se une a Chani e os Fremen enquanto busca vingança contra os conspiradores que destruíram sua família. Enfrentando uma escolha entre o amor de sua vida e o destino do universo, ele deve evitar um futuro terrível que só ele pode prever.",
+    "ano": 2024,
+    "genero": "Ficção Científica"
+  },
+  {
+    "titulo": "O Poderoso Chefão",
+    "avaliacao": 5,
+    "foto": "https://br.web.img3.acsta.net/medias/nmedia/18/90/93/20/20120876.jpg",
+    "sinopse": "O patriarca idoso de uma dinastia do crime organizada transfere o controle de seu império clandestino para seu filho relutante. Um clássico atemporal que explora temas de família, poder e lealdade em um mundo de máfia e traição.",
+    "ano": 1972,
+    "genero": "Drama"
+  },
+  {
+    "titulo": "A Chegada",
+    "avaliacao": 4,
+    "foto": "https://br.web.img3.acsta.net/pictures/16/10/06/23/05/054278.jpg",
+    "sinopse": "Quando naves alienígenas aterrissam em vários locais ao redor do mundo, uma linguista de elite é recrutada pelo exército para determinar se os alienígenas vêm em paz ou são uma ameaça.",
+    "ano": 2016,
+    "genero": "Ficção Científica"
+  },
+  {
+    "titulo": "Parasita",
+    "avaliacao": 5,
+    "foto": "https://br.web.img2.acsta.net/r_1280_720/img/c3/9e/c39e5699a52b153699b333d0883b67e5.jpg",
+    "sinopse": "A família de Ki-taek está desempregada, mas o filho mais velho, Ki-woo, começa a dar aulas particulares em uma casa rica. Logo, toda a família encontra uma maneira de se infiltrar na vida dos ricos, com consequências inesperadas.",
+    "ano": 2019,
+    "genero": "Thriller"
+  },
+  {
+    "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+    "avaliacao": 5,
+    "foto": "https://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg",
+    "sinopse": "Um hobbit recebe um anel mágico e embarca em uma jornada épica com um grupo de companheiros para destruí-lo e evitar que o Senhor das Trevas Sauron domine a Terra Média.",
+    "ano": 2001,
+    "genero": "Fantasia"
+  },
+  {
+    "titulo": "Interestelar",
+    "avaliacao": 5,
+    "foto": "https://br.web.img3.acsta.net/pictures/14/10/31/20/39/476171.jpg",
+    "sinopse": "Em um futuro distópico, a Terra está morrendo. Um grupo de exploradores espaciais embarca em uma viagem através de um buraco de minhoca para encontrar um novo lar para a humanidade.",
+    "ano": 2014,
+    "genero": "Ficção Científica"
+  },
+  {
+    "titulo": "Pulp Fiction: Tempo de Violência",
+    "avaliacao": 5,
+    "foto": "https://br.web.img3.acsta.net/r_1280_720/img/b4/39/b43957f0957ae59beb251567e1c65c29.jpg",
+    "sinopse": "Várias histórias interligadas sobre gângsteres, boxeadores e ladrões de lanchonetes em Los Angeles, apresentando diálogos afiados e uma narrativa não linear.",
+    "ano": 1994,
+    "genero": "Crime"
+  },
+  {
+    "titulo": "A Origem",
+    "avaliacao": 5,
+    "foto": "https://br.web.img3.acsta.net/medias/nmedia/18/87/32/31/20028688.jpg",
+    "sinopse": "Um ladrão que rouba informações corporativas ao entrar nos sonhos das pessoas recebe a tarefa de plantar uma ideia na mente de um CEO.",
+    "ano": 2010,
+    "genero": "Ficção Científica"
+  },
+  {
+    "titulo": "Forrest Gump: O Contador de Histórias",
+    "avaliacao": 5,
+    "foto": "https://br.web.img3.acsta.net/pictures/15/10/13/15/12/514297.jpg",
+    "sinopse": "A vida de um homem simples da zona rural do Alabama que, sem saber, testemunha e influencia muitos eventos históricos significativos nos EUA do século XX.",
+    "ano": 1994,
+    "genero": "Drama"
+  },
+  {
+    "titulo": "Matrix",
+    "avaliacao": 5,
+    "foto": "https://br.web.img2.acsta.net/medias/nmedia/18/91/08/82/20128877.JPG",
+    "sinopse": "Um hacker descobre que a realidade como ele a conhece é uma simulação criada por máquinas, e se une a um grupo de rebeldes para lutar contra elas.",
+    "ano": 1999,
+    "genero": "Ficção Científica"
+  },
+  {
+    "titulo": "Vingadores: Ultimato",
+    "avaliacao": 4,
+    "foto": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg",
+    "sinopse": "Após os eventos devastadores de Vingadores: Guerra Infinita, os heróis restantes tentam reverter as ações de Thanos e restaurar o universo.",
+    "ano": 2019,
+    "genero": "Ação"
+  },
+  {
+    "titulo": "Cidade de Deus",
+    "avaliacao": 5,
+    "foto": "https://br.web.img3.acsta.net/medias/nmedia/18/87/02/76/19871246.jpg",
+    "sinopse": "Dois amigos crescem em um bairro violento do Rio de Janeiro nos anos 60 e 70, seguindo caminhos diferentes: um se torna fotógrafo e o outro, traficante.",
+    "ano": 2002,
+    "genero": "Crime"
+  }
+]

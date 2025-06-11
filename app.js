@@ -9,7 +9,7 @@
 
 // api.github.com/users?since=XXX
 
-let filmes = [{
+const filmes = [{
     titulo: "Jurassic Park",
     foto: "filme1.webp",
     avaliacao: "10/10",
@@ -33,26 +33,26 @@ let filmes = [{
     duracao: "2h05m"
 }]
 
-function fnMontarCartao(filmeAtual){
-    document.querySelector(".lista-filmes").innerHTML += `
-        <div class="card-filme">
-            <img src="img/${filmeAtual.foto}">
-            <h3>${filmeAtual.titulo}</h3>
-            <span>⭐ ${filmeAtual.avaliacao}<span>
-        </div>
-        `
-}
+// function fnMontarCartao(filmeAtual){
+//     document.querySelector(".lista-filmes").innerHTML += `
+//         <div class="card-filme">
+//             <img src="img/${filmeAtual.foto}">
+//             <h3>${filmeAtual.titulo}</h3>
+//             <span>⭐ ${filmeAtual.avaliacao}<span>
+//         </div>
+//         `
+// }
 
-function allFilms(filmes) {
-    filmes.forEach(filmeAtual => {
+const allFilms = filmes => {
+    filmes.forEach((filmeAtual, codigo) => {
         document.querySelector(".lista-filmes").innerHTML += `
         <div class="card-filme">
             <img src="img/${filmeAtual.foto}">
+            <h1>Sala ${++codigo}</h1>
             <h3>${filmeAtual.titulo}</h3>
             <span>⭐ ${filmeAtual.avaliacao}<span>
         </div>
-        `
-    })
+    `})
 }
 
 // fnMontarCartao(filmes[0])
