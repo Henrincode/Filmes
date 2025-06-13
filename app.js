@@ -33,43 +33,33 @@ const filmes = [{
     duracao: "2h05m"
 }]
 
-// function fnMontarCartao(filmeAtual){
-//     document.querySelector(".lista-filmes").innerHTML += `
+// const allFilms = filmes => {
+//     filmes.forEach((filmeAtual, codigo) => {
+//         document.querySelector(".lista-filmes").innerHTML += `
 //         <div class="card-filme">
 //             <img src="img/${filmeAtual.foto}">
+//             <h1>Sala ${++codigo}</h1>
 //             <h3>${filmeAtual.titulo}</h3>
 //             <span>⭐ ${filmeAtual.avaliacao}<span>
 //         </div>
-//         `
+//     `})
 // }
+// allFilms(filmes)
 
-const allFilms = filmes => {
-    filmes.forEach((filmeAtual, codigo) => {
+
+async function fnPegarFilmes() {
+    const filmes = await fetch("dados-filmes.json")
+    const filmesTratados = await filmes.json()
+    
+    filmesTratados.slice(0,4).forEach((filmeAtual, codigo) => {
         document.querySelector(".lista-filmes").innerHTML += `
         <div class="card-filme">
-            <img src="img/${filmeAtual.foto}">
-            <h1>Sala ${++codigo}</h1>
+            <img src="${filmeAtual.foto}">
+            <h1>Sala ${codigo + 6}</h1>
             <h3>${filmeAtual.titulo}</h3>
             <span>⭐ ${filmeAtual.avaliacao}<span>
         </div>
     `})
 }
 
-// fnMontarCartao(filmes[0])
-// fnMontarCartao(filmes[1])
-
-allFilms(filmes)
-
-
-
-// const fnCartao = (filmes) => {
-//     filmes.forEach(filme => {
-//         console.log(`Título: ${filme.titulo}`)
-//         console.log(`Foto: ${filme.foto}`)
-//         console.log(`Avaliação: ${filme.avaliacao}`)
-//         console.log(`Duração: ${filme.duracao}`)
-//         console.log("")
-//     });
-// }
-
-// fnCartao(filmes)
+fnPegarFilmes()
